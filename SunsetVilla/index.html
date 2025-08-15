@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sunset Villa — Comporta</title>
+    <meta name="description" content="Sunset Villa na Comporta. Casa de luxo para arrendamento, com piscina, perto da praia. Reserve no Airbnb/Booking ou contacte diretamente." />
+    <meta name="theme-color" content="#0f3b3a" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sunset Villa — Comporta" />
+    <meta property="og:description" content="Casa de luxo para arrendar na Comporta. Galeria, comodidades, localização, e contacto direto." />
+    <meta property="og:image" content="/assets/hero.jpeg" />
+    <meta property="og:url" content="https://exemplo-seu-dominio.com" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="/favicon.ico" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script defer src="/script.js"></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LodgingBusiness",
+        "name": "Sunset Villa",
+        "description": "Casa de luxo na Comporta para arrendamento.",
+        "url": "https://exemplo-seu-dominio.com",
+        "image": [
+          "https://exemplo-seu-dominio.com/assets/hero.jpeg"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua dos Quintais, 5",
+          "addressLocality": "Comporta",
+          "addressRegion": "Setúbal",
+          "addressCountry": "PT"
+        },
+        "amenityFeature": [
+          {"@type": "LocationFeatureSpecification", "name": "Piscina"},
+          {"@type": "LocationFeatureSpecification", "name": "Wi‑Fi"},
+          {"@type": "LocationFeatureSpecification", "name": "Ar condicionado"}
+        ],
+                 "sameAs": [
+           "https://www.airbnb.pt/rooms/1461756953207986036?guests=1&adults=1&s=67&unique_share_id=e8f17cc5-c83f-47cf-806a-8e2d6a655df0",
+           "https://www.booking.com/hotel/SEU_ID.html"
+         ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#" class="brand">
+          <img src="/favicon.ico" alt="Sunset Villa" class="brand-mark" />
+          <span class="brand-name">Sunset Villa</span>
+          <span class="brand-location" data-translate="brand-location">Comporta</span>
+        </a>
+        <div class="language-selector dropdown">
+            <button class="lang-btn dropdown-toggle active" aria-label="Selecionar idioma">
+                🌐
+            </button>
+            <div class="lang-dropdown" hidden>
+              <button class="lang-btn" data-lang="pt" aria-label="Português">🇵🇹 Português</button>
+              <button class="lang-btn" data-lang="en" aria-label="English">🇬🇧 English</button>
+              <button class="lang-btn" data-lang="es" aria-label="Español">🇪🇸 Español</button>
+              <button class="lang-btn" data-lang="fr" aria-label="Français">🇫🇷 Français</button>
+              <button class="lang-btn" data-lang="de" aria-label="Deutsch">🇩🇪 Deutsch</button>
+              <button class="lang-btn" data-lang="it" aria-label="Italiano">🇮🇹 Italiano</button>
+            </div>
+          </div>
+          
+        <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav">
+          <a href="#about" data-translate="nav-about">Sobre</a>
+          <a href="#amenities" data-translate="nav-amenities">Comodidades</a>
+          <a href="#gallery" data-translate="nav-gallery">Galeria</a>
+          <a href="#location" data-translate="nav-location">Localização</a>
+          <a href="#contact" data-translate="nav-contact">Contacto</a>
+          <a class="btn btn-primary btn-sm" href="https://www.airbnb.pt/rooms/1461756953207986036?guests=1&adults=1&s=67&unique_share_id=e8f17cc5-c83f-47cf-806a-8e2d6a655df0" target="_blank" rel="noopener" data-translate="nav-book">Reservar</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Apresentação">
+        <div class="hero-media" role="img" aria-label="Piscina e por do sol na Comporta"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <h1 class="headline">Sunset Villa</h1>
+          <p class="subhead" data-translate="hero-subhead">Um refúgio de luxo na Comporta — design orgânico, luz dourada e o mar por perto.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#gallery" data-translate="hero-gallery">Ver galeria</a>
+            <a class="btn btn-outline" href="https://www.airbnb.pt/rooms/1461756953207986036?guests=1&adults=1&s=67&unique_share_id=e8f17cc5-c83f-47cf-806a-8e2d6a655df0" target="_blank" rel="noopener" data-translate="hero-book">Reservar no Airbnb</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section-about">
+        <div class="container two-col">
+          <div class="col text">
+            <h2 data-translate="about-title">Viver a Comporta</h2>
+            <p data-translate="about-desc1">
+              A Sunset Villa foi pensada para quem procura serenidade e sofisticação. Materiais naturais,
+              linhas minimalistas e uma atmosfera descontraída inspirada na essência da Comporta.
+            </p>
+            <p data-translate="about-desc2">
+              Com capacidade para até 10 pessoas, dispõe de 1 suite com closet privado e WC privado, mais 4 quartos 
+              adicionais e 1 WC separado, sala ampla com lareira, cozinha equipada e uma área exterior com piscina 
+              aquecida privada, pergolado e zonas lounge para finais de tarde inesquecíveis.
+            </p>
+            <div class="booking-links">
+              <a class="chip" href="https://www.airbnb.pt/rooms/1461756953207986036?guests=1&adults=1&s=67&unique_share_id=e8f17cc5-c83f-47cf-806a-8e2d6a655df0" target="_blank" rel="noopener">Airbnb</a>
+              <!--<a class="chip" href="https://www.booking.com/hotel/SEU_ID.html" target="_blank" rel="noopener">Booking</a>-->
+            </div>
+          </div>
+          <div class="col media">
+            <img
+              class="rounded shadow lazy"
+              data-src="assets/Piscina-1.jpeg"
+              alt="Sala luminosa com madeira natural" width="960" height="720" />
+          </div>
+        </div>
+      </section>
+
+      <section id="amenities" class="section section-amenities">
+        <div class="container">
+          <h2 data-translate="amenities-title">Comodidades</h2>
+          <ul class="amenities-grid">
+            <li>
+              <span class="icon">🛏️</span>
+              <span data-translate="amenity-suites">1 suite + 4 quartos</span>
+            </li>
+            <li>
+              <span class="icon">🛁</span>
+              <span data-translate="amenity-bathrooms">2 WC's (1 privado da suite)</span>
+            </li>
+            <li>
+              <span class="icon">🏊‍♀️</span>
+              <span data-translate="amenity-pool">Piscina aquecida privada</span>
+            </li>
+            <li>
+              <span class="icon">📶</span>
+              <span data-translate="amenity-wifi">Wi-Fi gratuito</span>
+            </li>
+            <li>
+              <span class="icon">❄️</span>
+              <span data-translate="amenity-ac">Ar condicionado</span>
+            </li>
+            <li>
+              <span class="icon">🅿️</span>
+              <span data-translate="amenity-parking">Estacionamento privado</span>
+            </li>
+            <li>
+              <span class="icon">👨‍👩‍👧‍👦</span>
+              <span data-translate="amenity-capacity">Até 10 hóspedes</span>
+            </li>
+            <li>
+              <span class="icon">🔥</span>
+              <span data-translate="amenity-fireplace">Lareira</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+
+      <section id="gallery" class="section section-gallery">
+        <div class="container">
+          <h2 data-translate="gallery-title">Galeria</h2>
+          <div class="gallery-grid">
+            <a href="/assets/Piscina-1.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Piscina-1.jpeg" alt="Piscina da Sunset Villa" width="600" height="800" />
+            </a>
+            <a href="/assets/Exterior-1.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Exterior-1.jpeg" alt="Exterior da villa" width="600" height="800" />
+            </a>
+            <a href="/assets/Sala-2.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Sala-2.jpeg" alt="Sala principal" width="600" height="800" />
+            </a>
+            <a href="/assets/Cozinha-1.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Cozinha-1.jpeg" alt="Cozinha principal" width="600" height="800" />
+            </a>
+            <a href="/assets/Cozinha-2.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Cozinha-2.jpeg" alt="Cozinha com ilha" width="600" height="800" />
+            </a>
+            <a href="/assets/Suite.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Suite.jpeg" alt="Suite principal" width="600" height="800" />
+            </a>
+            <a href="/assets/Quarto-1.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Quarto-1.jpeg" alt="Quarto 1" width="600" height="800" />
+            </a>
+            <a href="/assets/Quarto-2.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Quarto-2.jpeg" alt="Quarto 2" width="600" height="800" />
+            </a>
+            <a href="/assets/Quarto-Beliche.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Quarto-Beliche.jpeg" alt="Quarto com beliche" width="600" height="800" />
+            </a>
+            <a href="/assets/Quarto-Cima.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Quarto-Cima.jpeg" alt="Quarto do andar de cima" width="600" height="800" />
+            </a>
+            <a href="/assets/WC-1.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/WC-1.jpeg" alt="Casa de banho" width="600" height="800" />
+            </a>
+            <a href="/assets/Escritorio-1.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Escritorio-1.jpeg" alt="Escritório" width="600" height="800" />
+            </a>
+            <a href="/assets/Corredor-1.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Corredor-1.jpeg" alt="Corredor" width="600" height="800" />
+            </a>
+            <a href="/assets/Sala-Cima.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Sala-Cima.jpeg" alt="Sala do andar de cima" width="600" height="800" />
+            </a>
+            <a href="/assets/Sunset-1.jpg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Sunset-1.jpg" alt="Pôr do sol 1" width="600" height="800" />
+            </a>
+            <a href="/assets/Sunset-2.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Sunset-2.jpeg" alt="Pôr do sol 2" width="600" height="800" />
+            </a>
+            <a href="/assets/Sunset-3.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Sunset-3.jpeg" alt="Pôr do sol 3" width="600" height="800" />
+            </a>
+            <a href="/assets/Sunset-4.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Sunset-4.jpeg" alt="Pôr do sol 4" width="600" height="800" />
+            </a>
+            <a href="/assets/Vinho.jpeg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Vinho.jpeg" alt="Vinho ao pôr do sol" width="600" height="800" />
+            </a>
+            <a href="/assets/Cais-1.jpg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Cais-1.jpg" alt="Cais palafítico 1" width="600" height="800" />
+            </a>
+            <a href="/assets/Cais-2.jpg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Cais-2.jpg" alt="Cais palafítico 2" width="600" height="800" />
+            </a>
+            <a href="/assets/Piscina Noite.jpg" class="gallery-item" data-lightbox>
+              <img class="lazy" data-src="/assets/Piscina Noite.jpg" alt="Piscina à noite" width="600" height="800" />
+            </a>
+          </div>
+        </div>
+            <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" hidden>
+      <button class="lightbox-close" aria-label="Fechar">×</button>
+      <img class="lightbox-img" alt="Foto ampliada" />
+      <button class="lightbox-nav lightbox-prev" aria-label="Foto anterior">&larr;</button>
+      <button class="lightbox-nav lightbox-next" aria-label="Foto seguinte">&rarr;</button>
+    </div>
+      </section>
+
+      <section id="location" class="section section-location">
+        <div class="container two-col">
+          <div class="col text">
+            <h2 data-translate="location-title">Localização</h2>
+            <p data-translate="location-desc">Entre o pinhal e o Atlântico, a poucos minutos das praias e dos restaurantes icónicos da Comporta.</p>
+            <ul class="bullets">
+              <li data-translate="location-beach">Praia da Comporta — 8 min</li>
+              <li data-translate="location-alcacer">Alcácer do Sal — 15 min</li>
+              <li data-translate="location-troia">Tróia — 20 min</li>
+            </ul>
+          </div>
+          <div class="col media">
+            <div class="map-wrapper">
+              <iframe
+                title="Mapa da zona da Rua dos Quintais, Comporta"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7999.473927928922!2d-8.784!3d38.377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd18a7d0f5b0d64f%3A0x500ebbde4904530!2sRua%20dos%20Quintais%2C%20Comporta%2C%20Portugal!5e0!3m2!1spt-PT!2spt!4v1710000000000">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-contact">
+        <div class="container">
+          <h2 data-translate="contact-title">Contacto direto</h2>
+          <p data-translate="contact-desc">Preencha o formulário e entraremos em contacto com toda a informação (preços, disponibilidade e condições).</p>
+      
+          <form id="contact-form">
+            <div class="form-grid">
+              <label>
+                <span data-translate="contact-name">Nome</span>
+                <input type="text" name="name" autocomplete="name" required />
+              </label>
+              <label>
+                <span data-translate="contact-email">Email</span>
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+              <label>
+                <span data-translate="contact-phone">Telefone</span>
+                <input type="tel" name="phone" autocomplete="tel" />
+              </label>
+              <label>
+                <span data-translate="contact-checkin">Check-in</span>
+                <input type="date" name="checkin" />
+              </label>
+              <label>
+                <span data-translate="contact-checkout">Check-out</span>
+                <input type="date" name="checkout" />
+              </label>
+              <label>
+                <span data-translate="contact-guests">Hóspedes</span>
+                <input type="number" name="guests" min="1" max="12" />
+              </label>
+              <label class="full">
+                <span data-translate="contact-message">Mensagem</span>
+                <textarea name="message" rows="5" data-translate-placeholder="contact-message-placeholder" placeholder="Conte-nos o que procura" required></textarea>
+              </label>
+            </div>
+      
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary" data-translate="contact-send">Enviar</button>
+              <a class="btn btn-text" href="mailto:sunsetvilla.comporta@gmail.com" data-translate="contact-email-alt">Ou envie um email</a>
+            </div>
+            <p class="form-status" aria-live="polite" hidden></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img src="/favicon.ico" alt="Sunset Villa" />
+          <div>
+            <strong>Sunset Villa</strong>
+            <div>Comporta, Portugal</div>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#about" data-translate="footer-links-about">Sobre</a>
+          <a href="#amenities" data-translate="footer-links-amenities">Comodidades</a>
+          <a href="#gallery" data-translate="footer-links-gallery">Galeria</a>
+          <a href="#contact" data-translate="footer-links-contact">Contacto</a>
+        </div>
+        <div class="footer-legal">
+          <a href="https://www.airbnb.pt/rooms/1461756953207986036?guests=1&adults=1&s=67&unique_share_id=e8f17cc5-c83f-47cf-806a-8e2d6a655df0" target="_blank" rel="noopener">Airbnb</a>
+          <!--<a href="https://www.booking.com/hotel/SEU_ID.html" target="_blank" rel="noopener">Booking</a>-->
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <small>© <span id="year"></span> Sunset Villa. Todos os direitos reservados.</small>
+      </div>
+    </footer>
+  </body>
+</html> 
