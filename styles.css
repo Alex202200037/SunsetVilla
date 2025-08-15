@@ -69,7 +69,7 @@ img { max-width: 100%; display: block; }
 
 /* Buttons */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 18px; border-radius: 999px; text-decoration: none; font-weight: 600; border: 1px solid transparent; cursor: pointer; }
-.btn-sm { padding: 10px 14px; font-size: 14px; }
+.btn.btn-sm { padding: 10px 14px; font-size: 14px; color: #fff; }
 .btn-primary { background: var(--brand); color: #fff; box-shadow: var(--shadow); }
 .btn-primary:hover { filter: brightness(1.06); }
 .btn-outline { background: transparent; color: #fff; border-color: rgba(255,255,255,0.8); }
@@ -256,8 +256,26 @@ img { max-width: 100%; display: block; }
   .nav a:hover {
     background: var(--bg);
   }
+ /* MOBILE NAV TOGGLE */
   .nav-toggle {
-    display: inline-flex;
+    display: flex;              /* flex container */
+    flex-direction: column;     /* empilha os spans verticalmente */
+    align-items: center;        
+    justify-content: center;
+    gap: 4px;                   /* espaçamento entre os traços */
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .nav-toggle span {
+    width: 24px;   /* largura do traço */
+    height: 2px;   /* altura do traço */
+    background: var(--ink);
+    display: block;
   }
 
   /* HEADER */
