@@ -12,7 +12,7 @@ const translations = {
     // Hero
     "hero-subhead": "Um refúgio de luxo na Comporta — design orgânico, luz dourada e o mar por perto.",
     "hero-gallery": "Ver galeria",
-    "hero-book": "Reservar no Airbnb",
+    "hero-book": "Faça agora um Pedido de Reserva",
     
     // About
     "about-title": "Viver a Comporta",
@@ -80,7 +80,7 @@ const translations = {
     // Hero
     "hero-subhead": "A luxury retreat in Comporta — organic design, golden light and the sea nearby.",
     "hero-gallery": "View Gallery",
-    "hero-book": "Book on Airbnb",
+    "hero-book": "Make a Reservation Request now",
     
     // About
     "about-title": "Living in Comporta",
@@ -148,7 +148,7 @@ const translations = {
     // Hero
     "hero-subhead": "Un refugio de lujo en Comporta: diseño orgánico, luz dorada y el mar cerca.",
     "hero-gallery": "Ver galería",
-    "hero-book": "Reservar en Airbnb",
+    "hero-book": "Haga ahora una Solicitud de Reserva",
     
     // About
     "about-title": "Vivir Comporta",
@@ -215,7 +215,7 @@ fr: {
   // Hero
   "hero-subhead": "Un refuge de luxe à Comporta — design organique, lumière dorée et la mer à proximité.",
   "hero-gallery": "Voir la galerie",
-  "hero-book": "Réserver sur Airbnb",
+  "hero-book": "Faites dès maintenant une Demande de Réservation",
   
   // About
   "about-title": "Vivre Comporta",
@@ -282,7 +282,7 @@ de: {
   // Hero
   "hero-subhead": "Ein luxuriöser Rückzugsort in Comporta – organisches Design, goldenes Licht und das Meer in der Nähe.",
   "hero-gallery": "Galerie ansehen",
-  "hero-book": "Auf Airbnb buchen",
+  "hero-book": "Stellen Sie jetzt eine Reservierungsanfrage",
   
   // About
   "about-title": "Comporta erleben",
@@ -349,7 +349,7 @@ it: {
   // Hero
   "hero-subhead": "Un rifugio di lusso a Comporta — design organico, luce dorata e il mare a due passi.",
   "hero-gallery": "Vedi galleria",
-  "hero-book": "Prenota su Airbnb",
+  "hero-book": "Fai subito una Richiesta di Prenotazione",
   
   // About
   "about-title": "Vivere Comporta",

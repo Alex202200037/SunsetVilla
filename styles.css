@@ -72,8 +72,8 @@ img { max-width: 100%; display: block; }
 .btn.btn-sm { padding: 10px 14px; font-size: 14px; color: #fff; }
 .btn-primary { background: var(--brand); color: #fff; box-shadow: var(--shadow); }
 .btn-primary:hover { filter: brightness(1.06); }
-.btn-outline { background: transparent; color: #fff; border-color: rgba(255,255,255,0.8); }
-.btn-outline:hover { background: rgba(255,255,255,0.12); }
+.btn-outline { background: #1e3a4a85; color: #fff; border-color: rgba(255,255,255,0.8); }
+.btn-outline:hover { background: #1e3a4a; }
 .btn-text { color: var(--brand); text-decoration: underline; background: transparent; border: none; padding: 0; }
 
 /* Sections */
